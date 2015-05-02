@@ -4,8 +4,22 @@
   <meta charset="utf-8">
   <title>Redcated</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" type="text/css" href="//cloud.typography.com/619254/777982/css/fonts.css">
+  <link href="/assets/application.css" rel="stylesheet">
 </head>
 <body>
-  <%= yield %>
+  <header>
+    <h1><a href="/" rel="home">Redacted</a></h1>
+  </header>
+  <main>
+    <%= yield %>
+  </main>
+  <footer>
+    <ul>
+      <li><a href="/support">Support</a></li>
+      <li><a href="/press">Press</a></li>
+    </ul>
+    <p>&copy; <%= Time.now.year %> <a href="http://nothingmagical.com" rel="external nofollow">Nothing Magical Inc.</a></p>
+  </footer>
 </body>
 </html>

@@ -20,6 +20,10 @@ class App < Sinatra::Base
   get '/support' do
     erb :support
   end
+
+  get '/press' do
+    erb :press
+  end
 end
 
 run App
