@@ -15,12 +15,6 @@ gem 'erubis'
 # Use the right host
 gem 'rack-canonical-host'
 
-# XML parsing
-gem 'nokogiri'
-
-# Markdown
-gem 'redcarpet'
-
 # Assets
 gem 'sprockets'
 
@@ -29,7 +23,7 @@ gem 'sass'
 gem 'sprockets-sass'
 gem 'bourbon'
 
+# Development
 group :development do
-  # Reloading in development
-  gem 'shotgun'
+  gem 'foreman'
 end
