@@ -17,6 +17,10 @@ class App < Sinatra::Base
     erb :home
   end
 
+  get '/help' do
+    redirect '/support'
+  end
+
   get '/support' do
     erb :support
   end
