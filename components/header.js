@@ -5,8 +5,12 @@ import AppIcon from '../components/app_icon'
 
 const HeaderContainer = styled.header`
   display: block;
-  max-width: 640px;
+  width: 640px;
   margin: 70px auto 24px;
+
+  @media all and (max-width: 660px) {
+    width: 300px;
+  }
 `
 
 const Header = (props) => {

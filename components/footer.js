@@ -2,10 +2,14 @@ import React from 'react'
 import styled from 'styled-components'
 
 const FooterContainer = styled.footer`
-  max-width: 640px;
+  width: 640px;
   margin: 0 auto;
   margin: 70px auto;
   color: #89929a;
+
+  @media all and (max-width: 660px) {
+    width: 300px;
+  }
 
   p {
     font-size: 17px;
