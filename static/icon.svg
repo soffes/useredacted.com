@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="107px" height="123px" viewBox="0 0 107 123" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>App Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#36D2FB" offset="0%"></stop>
+            <stop stop-color="#2078EE" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0.251461988" y="1.98951966e-13" width="85.497076" height="104.750594" rx="1.5"></rect>
+        <filter x="-5.8%" y="-3.8%" width="111.7%" height="109.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-54.000000, -68.000000)">
+            <g id="Header" transform="translate(57.000000, 69.000000)">
+                <g id="App-Icon" transform="translate(50.683408, 59.420168) rotate(-9.000000) translate(-50.683408, -59.420168) translate(7.683408, 6.920168)">
+                    <g id="Background">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    </g>
+                    <rect id="Rectangle-2" fill="#52BCF8" x="0.251461988" y="28.9311164" width="18.9853801" height="24.067696"></rect>
+                    <rect id="Rectangle-2" fill="#1179C9" x="0.251461988" y="52.9988124" width="18.9853801" height="24.067696"></rect>
+                    <rect id="Rectangle-2" fill="#207AEE" x="18.9853801" y="28.9311164" width="24.3918129" height="24.067696"></rect>
+                    <rect id="Rectangle-2" fill="#5FC5F8" x="18.9853801" y="52.9988124" width="24.3918129" height="24.067696"></rect>
+                    <rect id="Rectangle-2" fill="#33C4F9" x="43.377193" y="28.9311164" width="24.2660819" height="24.067696"></rect>
+                    <rect id="Rectangle-2" fill="#2EB3F6" x="43.377193" y="52.9988124" width="24.2660819" height="24.067696"></rect>
+                    <rect id="Rectangle-2" fill="#2792F2" x="67.6432749" y="28.9311164" width="18.1052632" height="24.067696"></rect>
+                    <rect id="Rectangle-2" fill="#14589D" x="67.6432749" y="52.9988124" width="18.1052632" height="24.067696"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
