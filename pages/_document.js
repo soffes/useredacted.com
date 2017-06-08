@@ -16,6 +16,7 @@ export default class MyDocument extends Document {
           {styleTags}
           <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/619254/777982/css/fonts.css" />
           <link rel="stylesheet" type="text/css" href="/static/base.css" />
+          <link rel="icon" href="/static/favicon.ico" />
         </Head>
         <body>
           <div className='root'>
