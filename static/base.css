@@ -67,6 +67,7 @@ a {
 }
 
 p a {
+  font-weight: 500;
   border-bottom: 1px solid transparent;
 }
 

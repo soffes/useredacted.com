@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import Page from '../components/page'
 import SubHeading from '../components/subheading'
 import SubSubHeading from '../components/subsubheading'
+import Aside from '../components/aside'
 
 const Question = styled.div`
   margin-bottom: 2em;
@@ -43,12 +44,16 @@ export default () => (
 
     <Question>
       <SubSubHeading>Who makes Redacted?</SubSubHeading>
-      <p>Redacted was designed and developed by <a href="http://nothingmagical.com" rel="external nofollow">Nothing Magical Inc.</a></p>
+      <p>Redacted was designed and developed by <a href="http://nothingmagical.com" rel="external nofollow">Nothing Magical Inc</a>.</p>
     </Question>
 
     <Question>
       <SubSubHeading>My question wasn't answered. Help!</SubSubHeading>
       <p>Just <a href="mailto:support@nothingmagical.com?subject=Redacted for Mac Support">email me</a> and I'll get you taken care of!</p>
     </Question>
+
+    <Aside>
+      Special thanks to <a href="https://twitter.com/MattieuGA">Mattieu Gamache-Asselin</a> for French localization and <a href="https://twitter.com/hiddevdploeg">Hidde van der Ploeg</a> for Dutch localization.
+    </Aside>
   </Page>
 )

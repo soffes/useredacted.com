@@ -16,7 +16,7 @@ const VideoContainer = styled.div`
 
 export default () => (
   <Page>
-    <Subheading style={{ "margin-bottom": "20px" }}>Easily obscure parts of an image</Subheading>
+    <Subheading style={{ "marginBottom": "20px" }}>Easily obscure parts of an image</Subheading>
     <VideoContainer>
       <video src="/static/video@2x.mp4" width="818" height="689" autoPlay="true" />
     </VideoContainer>
