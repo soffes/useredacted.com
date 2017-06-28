@@ -27,7 +27,7 @@ const FooterContainer = styled.footer`
 const Footer = (props) => {
   return(
     <FooterContainer>
-      <p><a href="/support" style={{ "margin-right": "1.25em" }}>Support</a> <a href="/press">Press</a></p>
+      <p><a href="/support" style={{ marginRight: "1.25em" }}>Support</a> <a href="/press">Press</a></p>
       <p>© 2017 <a href="https://nothingmagical.com" rel="external nofollow">Nothing Magical, Inc.</a></p>
     </FooterContainer>
   )
