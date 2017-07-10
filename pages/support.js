@@ -34,12 +34,12 @@ export default () => (
 
     <Question>
       <SubSubHeading>Are you making an iOS version?</SubSubHeading>
-      <p>Yes! It's mostly complete and should be available in the next several weeks!</p>
+      <p>Yes! Download it <a href="https://itunes.apple.com/app/redacted-easily-obscure-parts-of-an-image/id992003008?mt=8&at=1l3vmtU" rel="external nofollow">here</a>!</p>
     </Question>
 
     <Question>
       <SubSubHeading>Will you make a Windows or Android version?</SubSubHeading>
-      <p>Sorry, no. Redacted it built on top of Apple's technologies. Rewriting it for Windows or Android would take a ton of time that I'd rather spend working on new ideas.</p>
+      <p>Sorry, no. Redacted it built on top of Apple’s technologies. Rewriting it for Windows or Android would take a ton of time that I’d rather spend working on new ideas.</p>
     </Question>
 
     <Question>
