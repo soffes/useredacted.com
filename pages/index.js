@@ -19,7 +19,7 @@ export default () => (
   <Page>
     <Subheading style={{ "marginBottom": "20px" }}>Easily obscure parts of an image</Subheading>
     <VideoContainer>
-      <video src="/static/video@2x.mp4" width="818" height="689" autoPlay="true" />
+      <video src="/static/video@2x.mp4" width="818" height="689" controls muted />
     </VideoContainer>
     <p>Hide sensitive details in an image by simply clicking and dragging. Copy and paste in and out of Redacted for super quick sharing. Pick from three different redaction styles or mix and match.</p>
     <p>
