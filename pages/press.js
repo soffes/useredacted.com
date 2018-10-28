@@ -3,7 +3,7 @@ import SubHeading from '../components/subheading'
 import SubSubHeading from '../components/subsubheading'
 
 export default () => (
-  <Page>
+  <Page title="Press">
     <SubHeading>Press</SubHeading>
 
     <p>For press inquiries, please contact <a href="mailto:press@nothingmagical.com?subject=Redacted Press Inquiry">press@nothingmagical.com</a>. Want to review Redacted and need a promo code? Just ask! <a href="mailto:press@nothingmagical.com?subject=I'd like to review Redacted for Mac!">Send us an email</a> and we'll be glad to send one your way.</p>

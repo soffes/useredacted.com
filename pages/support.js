@@ -9,7 +9,7 @@ const Question = styled.div`
 `
 
 export default () => (
-  <Page>
+  <Page title="Support">
     <SubHeading>Support</SubHeading>
 
     <Question>
