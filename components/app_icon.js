@@ -8,6 +8,6 @@ const Container = styled.a`
 
 export default () => (
   <Container href="/" rel="home">
-    <img src="/static/icon.svg" alt="Redacted" />
+    <img src="/icon.svg" alt="Redacted" />
   </Container>
 )

@@ -15,6 +15,16 @@ const FooterContainer = styled.footer`
     font-size: 17px;
   }
 
+  p:first-child {
+    a {
+      margin-right: 1.25em;
+    }
+
+    a:last-child {
+      margin-right: 0;
+    }
+  }
+
   a {
     color: #89929a;
 
@@ -27,8 +37,12 @@ const FooterContainer = styled.footer`
 const Footer = (props) => {
   return(
     <FooterContainer>
-      <p><a href="/support" style={{ marginRight: "1.25em" }}>Support</a> <a href="/press">Press</a></p>
-      <p>© 2015–2018 <a href="https://nothingmagical.com" rel="external nofollow">Nothing Magical, Inc.</a></p>
+      <p>
+        <a href="/support">Support</a>
+        <a href="/privacy">Privacy</a>
+        <a href="/press">Press</a>
+      </p>
+      <p>© 2015–2020 <a href="https://nothingmagical.com" rel="external nofollow">Nothing Magical, Inc.</a></p>
     </FooterContainer>
   )
 }
