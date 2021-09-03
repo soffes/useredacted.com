@@ -6,8 +6,8 @@ const Container = styled.a`
   left: -8px;
 `
 
-export default () => (
-  <Container href="/" rel="home">
-    <img src="/icon.svg" alt="Redacted" />
-  </Container>
-)
+const AppIcon = () => <Container href="/" rel="home">
+  <img src="/icon.svg" alt="Redacted" />
+</Container>
+
+export default AppIcon

@@ -7,4 +7,5 @@ const SubHeading = styled.h3`
   color: #89929a;
   line-height: 1.5em;
 `
+
 export default SubHeading
