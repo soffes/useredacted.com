@@ -17,8 +17,8 @@
   "devDependencies": {
     "babel-plugin-styled-components": "^1.13.2"
   },
-  "description": "Website for Redacted by Nothing Magical, Inc.",
-  "repository": "https://github.com/nothingmagical/useredacted.com",
+  "description": "Website for Redacted by Sam Soffes",
+  "repository": "https://github.com/soffes/useredacted.com",
   "homepage": "https://useredacted.com",
   "author": {
     "name": "Sam Soffes",

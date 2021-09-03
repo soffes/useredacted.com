@@ -43,7 +43,7 @@ const Support = () => <Page title="Support">
 
   <Question>
     <SubSubHeading>Who makes Redacted?</SubSubHeading>
-    <p>Redacted was designed and developed by <a href="http://nothingmagical.com" rel="external nofollow">Nothing Magical Inc</a>.</p>
+    <p>Redacted was designed and developed by <a href="https://soff.es" rel="external nofollow">Sam Soffes</a>.</p>
   </Question>
 
   <Question>
