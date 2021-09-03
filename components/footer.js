@@ -42,7 +42,7 @@ const Footer = (props) => {
         <a href="/privacy">Privacy</a>
         <a href="/press">Press</a>
       </p>
-      <p>© 2015–2020 <a href="https://nothingmagical.com" rel="external nofollow">Nothing Magical, Inc.</a></p>
+      <p>© 2015–2021 <a href="https://soff.es" rel="external nofollow">Sam Soffes</a></p>
     </FooterContainer>
   )
 }
